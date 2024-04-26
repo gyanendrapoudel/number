@@ -6,7 +6,7 @@
     width: 80%;
     margin: 0 auto;
    
-    margin-top: 10rem;
+    margin-top: 1rem;
     padding: 5rem 2rem;
     
 
@@ -23,14 +23,34 @@
 }
 .left-content::after{
     margin-top: 5px;
+      margin-left: -1rem;
     content:'';
-    width: 100%;
+    width: 120%;
     height: 3px;
     background-color: rgb(210, 122, 51);
 }
+
+.middle-content::after{
+    margin-top: 5px;
+      margin-left: -1rem;
+    content:'';
+    width: 120%;
+    height: 3px;
+    background-color: rgb(75, 211, 202);
+}
+
+.right-content::after{
+    margin-top: 5px;
+    margin-left: -1rem;
+    content:'';
+    width: 120%;
+    height: 3px;
+    background-color: rgb(166, 65, 186);
+}
 .number{
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 .text{
     font-size: 1.5rem;
