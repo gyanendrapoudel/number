@@ -5,9 +5,10 @@
    
     width: 80%;
     margin: 0 auto;
-   
     margin-top: 1rem;
     padding: 5rem 2rem;
+    height: 100vh;
+    background-color: rgb(248, 250, 252);
     
 
 }
@@ -20,6 +21,12 @@
 .gird{
     display: grid;
     grid-template-columns: 1fr;
+}
+.left, .right,.middle{
+    background-color: rgb(238, 235, 235);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+   
 }
 .left-content::after{
     margin-top: 5px;
