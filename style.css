@@ -5,8 +5,7 @@
    
     width: 80%;
     margin: 0 auto;
-    margin-top: 1rem;
-    padding: 5rem 2rem;
+    padding: 1rem 2rem;
     height: 100vh;
     background-color: rgb(248, 250, 252);
     
@@ -66,6 +65,8 @@
 @media (max-width:600px) {
     .wrapper{
         flex-direction: column;
-        gap:2rem;
+        justify-content: center;
+        gap:3rem;
+
     }
 }
